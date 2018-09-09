@@ -1,5 +1,5 @@
 • What is a gitignore file and what should it include for a Java project?
-- gitignore file stores file extensions for the files one does not want to keep in 	              source control. So these files stay in the working space but not in the source control. 
+- gitignore file stores file extensions for the files one does not want to keep in 	              source control. It is also used for omitting those files which are system specific like     .project files. So these files stay in the working space but not in the source control. 
 - gitignore file should include following files for a java project.
 1.Compiled class file
 *.class
